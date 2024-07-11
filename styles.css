@@ -157,12 +157,12 @@ body {
     line-height: 1.5;
     color: var(--color-gray);
     background-color: var(--color-light);
+    overflow-x: hidden;
 }
 
 .container {
     max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
     margin-inline: auto;
-    overflow: hidden;
     padding-inline: var(--container-padding-x);
 }
 
@@ -291,7 +291,7 @@ body {
 
 .banner-body img {
     position: absolute;
-    left: 34.11%;
+    right: calc(-1*var(--container-padding-x));
     top: 14.52%;
     width: 73.79%;
 }
@@ -356,6 +356,10 @@ body {
 
     .header-logo {
         width: 100px;
+    }
+
+    .banner-body img {
+        right: calc(-1*var(--container-padding-x) / 2);
     }
 
     .header-menu-list {
