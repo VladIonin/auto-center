@@ -615,13 +615,13 @@ body {
     }
 
     .card {
-        min-width: 160px;
+        min-width: 0;
         padding: 0;
         gap: 12px;
     }
 
     .card img {
-        height: 120px;
+        height: 30vw;
     }
 
     .card-info {
@@ -633,9 +633,13 @@ body {
     }
 
     .car-tags {
-        height: 2rem;
         white-space: normal;
+        height: 2rem;
         font-size: 12px;
+    }
+
+    .price{
+        white-space: normal;
     }
 
     .card-button {
