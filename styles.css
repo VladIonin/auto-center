@@ -921,7 +921,6 @@ footer {
     display: flex;
     padding: 24px 0;
     justify-content: space-between;
-    align-items: center;
     border-top: 1px solid #3B3B3B;
 }
 
@@ -1339,6 +1338,21 @@ footer {
     .footer-top {
         flex-direction: column;
         gap: 24px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .footer-bottom .actions {
+        flex-direction: column;
+        align-items: normal;
+        gap: 24px;
+    }
+
+    .footer-bottom .social-list {
+        order: 1;
     }
 }
 
